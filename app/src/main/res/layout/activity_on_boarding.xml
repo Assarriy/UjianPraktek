@@ -13,7 +13,7 @@
         android:layout_height="300dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:src="@drawable/gambar" />
+        android:src="@drawable/onBoardingImage" />
 
     <TextView
         android:id="@+id/onBoardingTitle"
@@ -38,6 +38,7 @@
         android:textAlignment="center" />
 
     <Button
+        android:id="@+id/onBoardingButton"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_below="@id/onBoardingDescription"
@@ -46,5 +47,5 @@
         android:layout_marginTop="100dp"
         android:backgroundTint="#0089ED"
         android:fontFamily="@font/poppins_medium"
-        android:text="Get Started" />
+        android:text="@string/onBoardingButton" />
 </RelativeLayout>

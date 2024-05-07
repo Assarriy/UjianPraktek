@@ -2,4 +2,5 @@
     <string name="app_name">Ujian Praktek</string>
     <string name="onBoardingTitle">Make Your Own Profile</string>
     <string name="onBoardingDescription">The Profile App is your space to express yourself and connect with others.</string>
+    <string name="onBoardingButton">Get Started</string>
 </resources>
