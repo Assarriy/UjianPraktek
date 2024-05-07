@@ -3,4 +3,6 @@
     <string name="onBoardingTitle">Make Your Own Profile</string>
     <string name="onBoardingDescription">The Profile App is your space to express yourself and connect with others.</string>
     <string name="onBoardingButton">Get Started</string>
+    <string name="job">Android Developer</string>
+    <string name="ttl">Majalengka, 23 Januari 2009</string>
 </resources>
