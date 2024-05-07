@@ -2,7 +2,10 @@ package com.assarriy.ujianpraktek
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.TextView
+import android.widget.Toast
+import androidx.appcompat.widget.Toolbar
 import com.assarriy.ujianpraktek.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -20,5 +23,12 @@ class MainActivity : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.txt_name).apply {
             text = name
         }
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home){
+            finish()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
