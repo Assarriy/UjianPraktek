@@ -22,9 +22,39 @@
         android:layout_below="@id/loginImage"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:fontFamily="@font/poppins_semibold"
         android:text="Fill your profile"
         android:textSize="24sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/textInput"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/loginTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="5dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:background="@null"
+            android:hint="Input Name"
+            android:inputType="text|textNoSuggestions" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/onBoardingButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/textInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#0089ED"
+        android:text="Login" />
 
 
 </RelativeLayout>
